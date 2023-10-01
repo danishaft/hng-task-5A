@@ -1,0 +1,24 @@
+@use "../../assets/styles/styles.scss" as g;
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:  2em 0;
+}
+.logo{
+    display: flex;
+    gap: .6em;
+}
+.logo h4{
+    font-size: 1em;
+}
+.settings{
+    display: flex;
+    gap: .6em;
+}
+.article{
+    color: #413C6D;
+    font-size: 0.875rem;
+    @include g.sora;
+    margin: 1em 0;
+}

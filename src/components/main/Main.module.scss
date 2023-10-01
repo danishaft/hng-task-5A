@@ -1,0 +1,11 @@
+@use "../../assets/styles/styles.scss" as g;
+.screen_options{
+    display: flex;
+    justify-content: space-evenly;
+}
+.camera_options{
+    margin: 1.5em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+}
